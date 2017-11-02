@@ -20,12 +20,25 @@
 </tr>
 </table>
 </div>
-<div class="w3-section">
+<div class="w3-section w3-white">
 <form>
-<b>Sted eller flyplasskode</b> (by, land eller flyplasskode)<br>
-<input type="text" name="place"><br>
-Finn lokasjon
-
+	<p><b>Sted eller flyplasskode</b> (by, land eller flyplasskode)</p>
+	<p><input type="text" name="place"></p>
+	<p>Finn lokasjon</p>
+	<p><input type="checkbox" name="otherLocation"> Jeg skal levere kjøretøyet til en annen lokasjon </p> 
+	<p><b>Hentes:</b></p>
+	<p><input type="date" name="pickupDate"><input type="time" name="pickupTime"></p>
+	<p><b>Leveres:</b></p>
+	<p><input type="date" name="deliveryDate"><input type="time" name="deliveryTime"></p>
+	<p><b>Din alder ved hentetidspunktet</b></p>
+	<p>
+		<select>
+  			<option value="">Volvo</option>
+  			<option value="">Saab</option>
+  			<option value="">Mercedes</option>
+  			<option value="">Audi</option>
+  		</select>
+  	</p>
 </form>
 </div>
 
