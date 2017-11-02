@@ -32,6 +32,10 @@ table.center{
 	margin-right: auto;
 }
 
+img.biltype{
+	border-style: solid grey;
+}
+
 #container{
 	width: 1000px;
 	heigth: 1000px;
