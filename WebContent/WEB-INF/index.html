@@ -24,7 +24,7 @@
 <form>
 	<p><b>Sted eller flyplasskode</b> (by, land eller flyplasskode)</p>
 	<p><input type="text" name="place"></p>
-	<p>Finn lokasjon</p>
+	<p><a href="">Finn lokasjon</a></p>
 	<p><input type="checkbox" name="otherLocation"> Jeg skal levere kjøretøyet til en annen lokasjon </p> 
 	<p><b>Hentes:</b></p>
 	<p><input type="date" name="pickupDate"><input type="time" name="pickupTime"></p>
@@ -38,8 +38,32 @@
   			<option value="30to69">30-69</option>
   			<option value="29">29</option>
   			<option value="28">28</option>
+  			<option value="27">27</option>
+  			<option value="26">26</option>
+  			<option value="25">25</option>
+  			<option value="24">24*</option>
+  			<option value="23">23*</option>
+  			<option value="22">22*</option>
+  			<option value="21">21*</option>
+  			<option value="20">20*</option>
+  			<option value="19">19*</option>
+  			<option value="18">18*</option>
   		</select>
   	</p>
+  	<p><b>Biltype:</b></p>
+  	<p>
+  		<select>
+  			<option value="showAll">Vis alle</option>
+  			<option value="familyCollection">Family Collection</option>
+  			<option value="greenCollection">Green Collection</option>
+  			<option value="funCollection">Fun Collection</option>
+  			<option value="prestigeCollection">Prestige Collection</option>
+  			<option value="vans">Varebiler</option>
+  		</select>
+  	</p>
+  	<p><input type="checkbox" name="rewards"> Bruk mine rewardspoeng</p>
+  	<p><input type="checkbox" name="discount"> Jeg har rabatt (CDP, PC, kupong eller annen kode)</p>
+  	<p><input type="submit" name="orderMember" value="Bestill som medlem"><input type="submit" name="orderGuest" value="Bestill som gjest"></p>
 </form>
 </div>
 
