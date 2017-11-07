@@ -83,7 +83,8 @@ img.biltype:hover{
 
 .image {
 	float: left;
-	width: 50%
+	margin-left: 70px;
+	width: 50%;
 }	
 
 	
