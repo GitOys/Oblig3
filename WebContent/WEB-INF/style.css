@@ -30,10 +30,20 @@ body{
 table.center{
 	margin-left: auto;
 	margin-right: auto;
+	border-style: solid;
+	border-color: gray;
+	text-align: center;
+}
+
+table.center, tr{
+	border-collapse: collapse;
+	border: 1px solid gray;
+	
 }
 
 img.biltype{
-	border-style: solid grey;
+	border-style: solid;
+	border-color: gray;
 }
 
 #container{
