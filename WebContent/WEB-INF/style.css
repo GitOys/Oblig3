@@ -38,8 +38,26 @@ table.center{
 table.center, tr{
 	border-collapse: collapse;
 	border: 1px solid gray;
-	
 }
+
+.center2{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: gray;
+	text-align: center;
+}
+
+.center2 table{
+	border: 1px solid gray;
+}
+.center2 tr{
+	border: 1px solid gray;
+}
+.center2 td{
+	border: 1px solid gray;
+}
+
 
 img.biltype{
 	border-style: solid;
@@ -47,8 +65,8 @@ img.biltype{
 }
 
 img.biltype:hover{
-	width: 200%;
-	heigth: 200%;
+	heigth: 105%;
+	width: 105%;
 }
 
 #container{
