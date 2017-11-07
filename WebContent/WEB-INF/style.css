@@ -46,6 +46,11 @@ img.biltype{
 	border-color: gray;
 }
 
+img.biltype:hover{
+	width: 200%;
+	heigth: 200%;
+}
+
 #container{
 	width: 1000px;
 	heigth: 1000px;
